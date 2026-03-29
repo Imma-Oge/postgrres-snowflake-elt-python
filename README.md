@@ -101,24 +101,24 @@ sf_conn = get_snowflake_connection()
 * snowflake-connector-python
 * python-dotenv
 
-#Next Steps:
+# Next Steps:
 After the initial ETL setup and loading data into Snowflake, the project will evolve with the following:
 
-## Advanced Transformations
+### Advanced Transformations
 * Clean, standardize, and enrich data in the Silver layer.
 * Apply business rules, calculations, and joins across tables.
-## Gold Layer Preparation
+### Gold Layer Preparation
 * Aggregate data for analytics-ready tables.
 * Prepare KPI tables, summaries, and dashboards-ready datasets.
-## Automation / Scheduling
+### Automation / Scheduling
 * Schedule ETL notebooks using Airflow, Prefect, or cron jobs.
 * Automate incremental updates from Postgres to Snowflake.
-## Testing & Monitoring
+### Testing & Monitoring
 * Implement unit tests for transformation logic.
 * Monitor Snowflake loads and data quality for consistency.
-## Documentation & Visualization
+### Documentation & Visualization
 * Maintain data dictionaries for all tables.
 * Add visual dashboards or reports on top of the Gold layer.
-## Portfolio & Presentation
+### Portfolio & Presentation
 * Add visual summaries of the ETL workflow.
 * Include example analytics queries to showcase the Gold layer’s value.
